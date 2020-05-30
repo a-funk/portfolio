@@ -48,7 +48,6 @@ export class Movies extends Component {
     delButton.id = 'delButton';
     delButton.innerHTML = 'Delete Movie';
     delButton.onclick = function () {
-      // Is there a way to do it without being inline?
       if(window.confirm('Are you sure you want to delete '+title+'?')) {
         let ref = firebase.database().ref('movies');
         ref.once('value').then(snapshot => {
@@ -62,7 +61,6 @@ export class Movies extends Component {
 
         let refList = firebase.database().ref('relations');
         refList.once('value').then(snapshot => {
-        //refList.on('value', snapshot => {
           let relations = snapshot.val();
             for (let entry in relations) {
               if(relations[entry].mov === idVal) {
@@ -70,7 +68,6 @@ export class Movies extends Component {
               }
             }
         })
-        // Close lightbox
         document.getElementById('lb').removeChild(document.getElementById('lbMovie'));
         document.body.removeChild(document.getElementById('lb'));
         document.body.style.overflow = 'auto';

@@ -48,7 +48,7 @@ h2 {
 }
 
 .scrollButton {
-  background-color: #507A77;
+  background-color: #504a79;
   color: #FFF;
   border: 1px solid #2F4F4D;
   padding: 8px;
@@ -70,7 +70,7 @@ h2 {
 }
 
 .tab:hover {
-  background-color: #8FBDB9;
+  background-color: rgb(182, 207, 69);
   border-bottom:2px solid #507A77;
 }
 
@@ -129,7 +129,7 @@ h2 {
 
 .img-child img {
   width: 350px;
-  border: 4px solid #000;
+  border: 2px solid #000;
   cursor: pointer;
 }
 
@@ -179,7 +179,7 @@ h2 {
   background-color: #BFD6D4;
   padding: 15px;
   margin-top: 10px;
-  border: 2px solid #507A77;
+  border: 2px solid rgb(42, 158, 150);
   border-radius: 10px;
 }
 
@@ -195,7 +195,7 @@ h2 {
 }
 
 .section a {
-  color: #507A77;
+  color: rgb(42, 158, 150);
   font-style: italic;
 }
 
@@ -295,19 +295,23 @@ b {
 /* movies.js */
 
 .mov-container {
-  margin-top: 0px;
-  display: grid;
+  margin-top: 10px;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: flex-start;
+  flex-wrap: wrap;
+
   justify-items: center;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
-  grid-gap: 4px;
+  /* grid-template-columns: repeat(auto-fit, minmax(150px, 300px)); */
+  /* grid-gap: 4px; */
 }
 
 .mov-child {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  /* flex-direction: row; */
+  align-items: normal;
+  justify-content: normal;
 }
 
 .movCaption {
@@ -322,10 +326,10 @@ b {
 }
 
 #list {
-  background-color: #507A77;
+  background-color: rgb(42, 158, 150);
   color: #FFF;
   border: 1px solid #2F4F4D;
-  padding: 16px 8px;
+  padding: 12px 8px;
   font-size: 14px;
   cursor: pointer;
 }
@@ -349,7 +353,7 @@ b {
   margin: 4px 0px;
   padding: 4px 4px;
   float: right;
-  background-color: #507A77;
+  background-color: rgb(42, 158, 150);
   color: #FFF;
   border: 1px solid #2F4F4D;
   cursor: pointer;
@@ -358,7 +362,7 @@ b {
 #add-list {
   background-color: #FFF;
   color: #333;
-  border: 1px solid #507A77;
+  border: 1px solid rgb(42, 158, 150);
   padding: 16px 8px;
   font-size: 14px;
   width: 150px;
@@ -367,7 +371,7 @@ b {
 }
 
 #list-btn {
-  background-color: #507A77;
+  background-color: rgb(42, 158, 150);
   color: #FFF;
   border: 1px solid #2F4F4D;
   padding: 2px 8px;
@@ -384,7 +388,7 @@ b {
 }
 
 #delButton {
-  background-color: #B00000;
+  background-color: rgb(231, 98, 98);
   color: #FFF;
   float: right;
   margin: 8px 0px 0px 4px;
@@ -399,12 +403,12 @@ b {
 }
 
 #pagination {
-  background-color: #507A77;
+  background-color: rgb(42, 158, 150);
   color: #FFF;
   border: 1px solid #2F4F4D;
   padding: 8px;
   font-size: 14px;
-  margin: 0 auto;
+  margin: auto;
   cursor: pointer;
 }
 
@@ -458,8 +462,8 @@ b {
 }
 
 .rating {
-  background-color: #EBBA34;
-  border: 1px solid #BD8A00;
+  background-color: rgb(235, 205, 125);
+  border: 1px solid rgb(226, 126, 113);
   color: #222;
   padding: 8px 24px 8px 24px;
   font-weight: bold;
@@ -493,7 +497,7 @@ b {
     line-height: 28px;
   }
   .title {
-    color: #2F4F4D;
+    color: rgb(42, 158, 150);
     font-weight: bold;
     font-size: 28px;
     line-height: 36px;

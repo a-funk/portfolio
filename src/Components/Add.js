@@ -83,8 +83,8 @@ export class Add extends Component {
     return(
       <div id='add-box'>
         <form onSubmit={this.myFormHandler}>
-          <h2>Add a New Movie</h2>
-          <p>Please enter the IMDb movie ID for your desired movie:</p>
+          <h2>Add a Movie to the List</h2>
+          <p>IMDb movie ID:</p>
           <input name='movId' type='text' size='50' required onChange={this.inputHandler}></input><br/><br/>
           <input type='submit' id='submit' name='submit' value='Add Movie'></input>
         </form>

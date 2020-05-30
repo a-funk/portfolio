@@ -37,8 +37,8 @@ export class List extends Component {
     return(
       <div id='add-box'>
         <form onSubmit={this.myFormHandler}>
-          <h2>Create a New Movie List</h2>
-          <p>Please enter a title for the new movie list:</p>
+          <h2>Create Movie List</h2>
+          <p>Name of your movie list:</p>
           <input name='listName' type='text' size='50' required onChange={this.myChangeHandler}></input><br/><br/>
           <input type='submit' id='submit' name='submit' value='Create List'></input>
         </form>

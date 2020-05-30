@@ -34,10 +34,7 @@ export class App extends Component {
         id: 4,
         title: 'Genesis',
       },
-      {
-        id: 5,
-        title: 'Leave a Note!',
-      },
+      
       {
         id: 6,
         title: 'Movie List',
