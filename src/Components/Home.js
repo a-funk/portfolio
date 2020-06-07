@@ -15,7 +15,7 @@ export class Home extends Component {
               <img src={Portrait} alt='Me in San Francisco'/>
             </div>
             <div>
-              <h2>About Me</h2>
+              <h2>Alex Funk, a short bio:</h2>
               <hr/>
               <p>
                Hello. I am Alex Funk.  I am a Computer Science Major, Philosophy Minor and Technology Managment Certificate pursuer.

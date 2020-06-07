@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   color: #111 !important;
-  background-color: #FEFEFE;
+  background-color: rgb(255, 195, 126);
   font-weight: normal;
 }
 
@@ -15,7 +15,7 @@ body {
 
 .header {
   padding: 10px 0px;
-  background-color: #FFF;
+  background-color: rgb(206, 252, 164);
   width: 100vw;
 }
 
@@ -329,7 +329,7 @@ b {
   background-color: rgb(42, 158, 150);
   color: #FFF;
   border: 1px solid #2F4F4D;
-  padding: 12px 8px;
+  padding: 2px 8px;
   font-size: 14px;
   cursor: pointer;
 }
@@ -346,7 +346,7 @@ b {
 }
 
 #search {
-  width: 250px;
+  width: 245px;
 }
 
 #search-btn {
@@ -363,7 +363,7 @@ b {
   background-color: #FFF;
   color: #333;
   border: 1px solid rgb(42, 158, 150);
-  padding: 16px 8px;
+  padding: 0px 8px;
   font-size: 14px;
   width: 150px;
   cursor: pointer;
