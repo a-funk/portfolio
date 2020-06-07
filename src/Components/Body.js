@@ -3,10 +3,8 @@ import Home from './Home';
 import Images from './Images';
 import Videos from './Videos';
 import Projects from './Projects';
-import Form from './Form';
 import Movies from './Movies';
 import Add from './Add';
-import List from './List';
 
 export class Body extends Component {
   constructor()
@@ -50,14 +48,11 @@ export class Body extends Component {
       return <Videos display={this.state.display} scrollToTop={this.scrollToTop}/>
     else if(activeTab === 4)
       return <Projects display={this.state.display} scrollToTop={this.scrollToTop}/>
-    else if(activeTab === 5)
-      return <Form display={this.state.display} scrollToTop={this.scrollToTop}/>
     else if(activeTab === 6)
       return <Movies display={this.state.display} scrollToTop={this.scrollToTop}/>
     else if(activeTab === 7)
       return <Add display={this.state.display} scrollToTop={this.scrollToTop}/>
-    else
-      return <List display={this.state.display} scrollToTop={this.scrollToTop}/>
+   
   }
   render() {
     return(
